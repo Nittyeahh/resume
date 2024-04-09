@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    background-color: #eee6f6;
+}
+#logo-nav-div{
+    width: 100%;
+    height: 30px;
+    scroll-behavior: smooth;
+    
+}
+a{
+    text-decoration: none;
+}
+#name{
+    width: 28%;
+    color: #8a2be2;
+    font-weight: 600;
+    text-shadow: #4e2b3e;
+    text-shadow: 2px;
+    padding: 48px;
+    float: left;
+    text-align: left;
+}
+#home{
+    width: 18%;
+    min-height: 50px;
+    color: #2b2a2a;
+    float: left;
+    padding: 60px;
+    margin-left: 190px;
+    text-align: right;
+}
+
+#resume{
+    width: 18%;
+    min-height: 50px;
+    color: #2b2a2a;
+    float: left;
+    padding: 60px;
+    text-align: right;
+}
+#contact{
+    width: 15%;
+    color: #2b2a2a;
+    min-height: 50px;
+    float: left;
+    /* font-weight: 900; */
+    padding: 60px;
+    text-align: right;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#intro video{
+    width: 95%;
+    height: 800px;
+    padding: 20px;
+    margin-top: 0px;
+    margin-left: 40px;
+}
+#empty{
+    width: 100%;
+    height: 70px;
+}
+#know-me{
+    text-align: center;
+    color: #8a2be2;
+    padding: 20px;
+    
+    
+}
+#know-me h3{
+    text-align: center;
+    color: #000000;
+    width: 80%;
+    margin-left: 160px;
+}
+#Footer-div{
+    width: 100%;
+    min-height: 50px;
+    background-color:#eee6f6;
+    padding: 50px;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 10px;
+}
+#Footer-div img{
+    border-radius: 50%;
+    width: 50px;
+    float: left;
+    margin-left: 14%;
+    padding: 3px;
+    border: 2px solid black;
+    height: 50px;
+}
+
+#Main-div .box:nth-child(2)
+{
+    margin-left: 3%;
+   /*  margin-right: 3%; */
+}
+#Footer-div .contact:nth-child(3)
+{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+#Developed{
+    float: right;
+    font-size: 10px;
+    margin-right: 50px;
+    margin-bottom: 3%;
+}
